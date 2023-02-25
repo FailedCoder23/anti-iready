@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "start-server",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "env": {
+                "TRILIUM_ENV": "dev",
+                "TRILIUM_DATA_DIR": "./data"
+            },
+            "outputCapture": "std",
+            "program": "${workspaceFolder}/src/www"
+        }
+    ]
+}

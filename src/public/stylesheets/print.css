@@ -1,0 +1,16 @@
+@media print
+{
+    html body {
+        /* https://github.com/zadam/trilium/issues/3202 */
+        color: black;
+    }
+
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+
+    .relation-map-wrapper {
+        height: 100vh !important;
+    }
+}
